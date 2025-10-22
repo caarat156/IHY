@@ -101,7 +101,7 @@ fun LoginView {
                 text = { Text("Email: $email\nPassword: $password") },
                 confirmButton = {
                     TextButton(onClick = { showDialog = false }) {
-                        Text("OK")
+                        Text("OK Udah selesai")
                     }
                 }
             )
